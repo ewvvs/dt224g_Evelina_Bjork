@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--talar om för webbläsaren att det är HTML5-->
+<html lang="sv">
+<head> 
+    <meta charset="UTF-8">
+    <!--teckenuppsättning, hanterar svenska tecken-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--responsivitet-->
+    <title> Evelinas webbplats</title>
+    <!--sidans titel, visas i webbläsarfliken-->
+</head>
+<body>
+    <header>
+         <h1>Evelinas webbplats</h1>
+    <nav>
+        <!--navigeringsmeny-->
+        <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="hobby.html">Min hobby</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+<br>
+<main>
+    <h2>Kontakta mig</h2>
+    <p>Har du frågor eller kommentarer? Tveka inte att kontakta mig!</p>
+    <form action="mailto:evelina.bjork@example.com" method="post" enctype="text/plain">
+        <label for="namn">Namn:</label>
+        <input type="text" id="namn" name="namn" placeholder="Anna Andersson"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Anna@mail.com"><br><br>
+        <label for="meddelande">Meddelande:</label><br>
+        <textarea id="meddelande" name="meddelande"></textarea><br><br>
+        <input type="submit" value="Skicka">
+        <br>
+        <br>
+       <p>Du kan även kontakta mig direkt på 
+        <a href="mailto:evbj2500@student.miun.se">evbj2500@student.miun.se</a></p>
+        
+    </form>
+</main>
+<br>
+<br>
+<br>
+<footer>
+    <p>&copy; <i>Evelina Björk 2026</i></p>
+    <a href="kontakt.html">Länk till mina kontakter</a>
+</footer>
+</body>
