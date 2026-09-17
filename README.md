@@ -14,19 +14,19 @@ Du kan se min webbplats på följande plattformar:
 
 ## git Q/A
 *Vad är skillnaden mellan git add och git commit?*
-`git add` lägger till de ändringar jag vill spara i nästa commit och placerar dem i staging area. Om jag lägger till en punkt `git add.` läggs alla ändrade filer till på en gång. `git commit` skapar sedan en ny version med dessa ändringar i med ett commit-meddelande i ditt lokala repo. 
+`git add` lägger till de ändringar jag vill spara i nästa commit och placerar dem i staging area. Om jag lägger till en punkt `git add.` läggs alla ändrade filer till på en gång. `git commit` skapar sedan en ny version med dessa ändringar i med ett commit-meddelande i mitt lokala repo. 
 
 *Varför använder man branches istället för att jobba direkt i main?*
 Branches gör det möjligt att utveckla och testa ändringar separat från `main`. På så sätt kan jag göra ändringar utan att påverka den färdiga versionen direkt. T ex om jag vill arbeta på en ny funktion eller fixa en bugg. När ändringar är klara kan de mergas in i `main`. Det är även i branches som jag gör alla commits. 
 
 *Vad händer rent praktiskt när man gör en merge?*
-När jag gör en merge kombineras ändringarna från en branch med en annan branch - t ex kan ändringar från `dev`slå ihop med huvudgrenen `main` 
+När jag gör en merge kombineras ändringarna från en branch med en annan branch - t ex kan ändringar från `dev`slå ihop med huvudgrenen `main`. Git säger i princip "ta ändringarna som finns i `dev`och lägg in dem i `main`". På så sätt kan jag utveckla och testa i `dev` innan ändringarna läggs i `main`.
 
 *Vad är skillnaden mellan att pusha till GitHub och att publicera direkt på t.ex. Netlify?*
 Att pusha till Github innebär att jag skickar mina ändringar och commits till Github för versionshantering och lagring av projektet. Att publicera på Netlify innebär att webbplatsen görs tillgänglig på internet så att andra kan besöka den. Github kan även kopplas till Netlify så att ändringar automatiskt publiceras när jag pushar till den valda branchen. 
 
 *Om du vill exkludera någon fil i projektet från versionshanteringen, hur gör du då?*
-Jag skapar en ny textfil som heter *gitignore* i projektets rotmapp. Sen kan jag lista filnam eller mappar rad för rad. 
+Jag skapar en ny textfil som heter *gitignore* i projektets rotmapp. Sen kan jag lista filnam eller mappar rad för rad på det som jag inte vill ska visas. 
 
 Exempel:
 - /scrap
