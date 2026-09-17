@@ -7,7 +7,10 @@ Webbplatsen är skapad med fokus på en tydlig struktur och enkel navigering.
 - Projektet är byggt med HTML.
 
 ## Publicerade versioner av webbplatsen 
+Du kan se min webbplats på följande plattformar: 
+- https://ewvvs.github.io/dt224g_Evelina_Bjork/
 
+- https://dt224g-evelinabjork.netlify.app
 
 ## git Q/A
 *Vad är skillnaden mellan git add och git commit?*
@@ -26,9 +29,9 @@ Att pusha till Github innebär att jag skickar mina ändringar och commits till 
 Jag skapar en ny textfil som heter *gitignore* i projektets rotmapp. Sen kan jag lista filnam eller mappar rad för rad. 
 
 Exempel:
-/scrap
-/uploads
-*.log
+- /scrap
+- /uploads
+- *.log
 
 
 
