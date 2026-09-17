@@ -8,6 +8,7 @@ Webbplatsen är skapad med fokus på en tydlig struktur och enkel navigering.
 
 ## Publicerade versioner av webbplatsen 
 
+
 ## git Q/A
 *Vad är skillnaden mellan git add och git commit?*
 `git add` lägger till de ändringar jag vill spara i nästa commit och placerar dem i staging area. Om jag lägger till en punkt `git add.` läggs alla ändrade filer till på en gång. `git commit` skapar sedan en ny version med dessa ändringar i med ett commit-meddelande i ditt lokala repo. 
